@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-size: 2em;
+}
+body nav {
+  border-bottom: var(--bs-border-width) solid var(--bs-border-color) !important;
+}
+
+.select2-search input,
+.select2-selection,
+.select2-dropdown {
+  border: var(--bs-border-width) solid var(--bs-border-color) !important;
+}
+
+.select2-dark,
+.select2-search input,
+.select2-selection,
+.select2-dropdown,
+.select2-results__option,
+.select2-selection__rendered,
+.select2-selection__choice__display {
+  background-color: var(--bs-body-bg) !important;
+  color: var(--bs-body-color) !important;
+}
+
+.select2-results__option:hover:not(.select2-results__message) {
+  background-color: var(--bs-border-color) !important;
+}
+
+.is-invalid + .select2-container--bootstrap-5 .select2-selection,
+.was-validated select:invalid + .select2-container--bootstrap-5 .select2-selection {
+  border-color: var(--bs-form-invalid-border-color) !important;
+}
+
+.is-valid + .select2-container--bootstrap-5 .select2-selection,
+.was-validated select:valid + .select2-container--bootstrap-5 .select2-selection {
+  border-color: var(--bs-form-valid-border-color) !important;
+}/*# sourceMappingURL=default.css.map */
